@@ -1,55 +1,38 @@
-*{
-    border: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #d5e1ef ;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.container{
-    position: absolute;
-    width: 320px;
-    height: 500px;
-    
-    background: #FFFFFF;
-    border-radius: 20px;    
-}
-.qrcodeimg{
-    width: 300px;
-    height: 300px;
-    background-image: url("../images/image-qr-code.png");
-    background-size: 300px 300px;
-    border-radius: 15px;    
-    margin: 10px 0px 10px 10px;
+body {
+  background-color: #d5e1ef;
 }
 
-h2{
-    margin: 20px 20px 20px 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    font-size: larger;
-    text-align: center;
-    color: #0f2659;
+.card{
+    margin-top:5%;
 }
-p{
-    margin: 20px 30px 20px 30px;
-    font-size:15px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    color: #A0A2AE;
+.card-img-top {
+  border-radius: 25px !important;
+}
 
+h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  hiiiiiiiiiiiiiii
+  font-size: larger;
+  text-align: center;
+  color: #0f2659;
+}
+p {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #a0a2ae;
 }
 
 .attribution{
-    position: absolute;
-    left: 0.5%;
-    top:97%;
+  display:flex;
+  hie how r u
+  justify-content:flex-end;
 }
