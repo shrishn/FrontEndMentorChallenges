@@ -1,25 +1,32 @@
-* {
-  border: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-
-body {
+body, html {
   background-color: #d5e1ef;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card{
-    margin-top:5%;
+.main {
+  text-align: center;
 }
-.card-img-top {
-  border-radius: 25px !important;
+
+.card {
+  max-width: 18rem;
 }
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  
+}
+
 
 h5 {
   font-family: "Inter", sans-serif;
   font-weight: 800;
-  hiiiiiiiiiiiiiii
-  font-size: larger;
+  font-size: 20px;
   text-align: center;
   color: #0f2659;
 }
@@ -31,8 +38,4 @@ p {
   color: #a0a2ae;
 }
 
-.attribution{
-  display:flex;
-  hie how r u
-  justify-content:flex-end;
-}
+
