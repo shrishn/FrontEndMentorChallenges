@@ -1,0 +1,28 @@
+body {
+  background-color: #f6e6cf;
+}
+
+.recipe {
+  background-color: white;
+  border-radius: 25px;
+  border-color: white;
+  width: 40%;
+}
+
+img {
+  border-radius: 15px;
+}
+
+@media (max-width: 575px) {
+  .container-md {
+    padding: 0;
+    margin: 0;
+  }
+  .container-md.recipe {
+    border-radius: 0;
+    width:100%;
+  }
+  .container-md.recipe img {
+    border-radius: 0;
+  }
+}
