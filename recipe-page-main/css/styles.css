@@ -6,13 +6,31 @@ body {
   background-color: white;
   border-radius: 25px;
   border-color: white;
-  width: 40%;
+  width: 50%;
 }
-
+.prep{
+  border-radius: 15px;
+  padding:15px;
+  background-color: #FFF6FB ;
+}
 img {
   border-radius: 15px;
 }
-
+ul{
+  padding-left: 17px;
+}
+ol{
+  padding-left: 17px;
+}
+li{
+  margin: 0.5em 0.5em 0.5em 0em;
+}
+h3{
+  margin: 0.7em 0.7em 0.7em 0em;
+}
+h5{
+  margin: 0.5em;
+}
 @media (max-width: 575px) {
   .container-md {
     padding: 0;
