@@ -32,7 +32,10 @@ h5{
   margin: 0.5em;
 }
 table{
-  background-color: white;
+  background-color: #FFF6FB;
+}
+td,th {
+  border-bottom: 1px solid black;
 }
 @media (max-width: 575px) {
   .container-md {
